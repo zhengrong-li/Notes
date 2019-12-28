@@ -351,7 +351,7 @@ $$
 
 - 引入平均吸收系数后上式等价于
   $$
-  \frac{\rho}{\overline\chi}=\frac{\mathrm{d}P_R}{\mathrm{d}\tau}+\frac{\mathrm{d}P_g}{\mathrm{d}\tau}
+  \frac{g}{\overline\chi}=\frac{\mathrm{d}P_R}{\mathrm{d}\tau}+\frac{\mathrm{d}P_g}{\mathrm{d}\tau}
   $$
 
 - 辐射压的梯度前面已经求过
@@ -367,7 +367,7 @@ $$
 
 - 从而气体压强与光深的关系
   $$
-  \frac{\mathrm{d}P_g}{\mathrm{d}\tau}=\frac{\rho}{\overline\chi}-\frac {\sigma T_{eff}^4} { c } 
+  \frac{\mathrm{d}P_g}{\mathrm{d}\tau}=\frac{g}{\overline\chi}-\frac {\sigma T_{eff}^4} { c }
   $$
 
 
@@ -481,7 +481,7 @@ $$
 
   - 单原子气体，$\gamma=5/3$ ，$\nabla_A=0.4$
   - 多原子气体，$\gamma\approx1$（自由度很多），$\nabla_A\approx0$ ——对于有大量分子存在的冷星，对流极易产生
-  - 当大气层自内而外由电离氢过渡到中性氢时，$\mu$ 增大一倍（？），$\mu$ 对 $P$ 的梯度是负的，更容易发生对流
+  - 当大气层自内而外由电离氢过渡到中性氢时，$\mu$ 增大一倍（由于电子质量忽略不计，“分子”数减少一半，所以平均“分子”质量加倍），$\mu$ 对 $P$ 的梯度是负的，更容易发生对流
   - 电子和质子复合时释放能量，加热对流元中的气体使其膨胀，进一步加强对流
   - 对于辐射压力，$\gamma=4/3$ ，$\nabla_A=0.25$ ，更容易产生对流
 
